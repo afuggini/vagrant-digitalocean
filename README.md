@@ -1,5 +1,17 @@
 Digital Ocean Vagrant Provider
 ==============================
+
+This version was created to be compatible with vagrant-berkshelf.
+
+Install Manually
+----------------
+
+1. Run ```gem build vagrant-digitalocean.gemspec```.
+2. Place the resulting gem in ```~/.vagrant.d/gems/cache```
+3. Copy the source code to ```~/.vagrant.d/gems/gems/vagrant-digitalocean-0.5.3```.
+4. Run ```vagrant plugin install vagrant-digitalocean``` to complete manual installation
+
+==============================
 `vagrant-digitalocean` is a provider plugin for Vagrant that supports the
 management of [Digital Ocean](https://www.digitalocean.com/) droplets
 (instances).
